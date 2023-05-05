@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "Mano alzada";
+    src:local(Bright\ Sunshine), url("../assets/font/HandKriting-Regular.ttf");
+}
+
+body {
+    background-color: #333;
+    color: aliceblue;
+    /* /* font-family: 'Roboto', sans-serif; */
+    font-family: sans-serif; 
+}
+
+.text{
+    text-transform: uppercase;
+    /* text-shadow: 3px 3px 0 red; */
+    /* letter-spacing: -1; */
+    /* word-spacing: 30px; */
+    /* line-height: 3; */
+    /* writing-mode: vertical-rl; */
+    word-break: break-all;
+    width: 10px;
+    text-align: center;
+}
+/* .word-container{
+    background-color: lightcoral;
+    height: 200px;
+    text-align: center;
+}
+.word{
+    line-height: 200px;
+} */
+
+/* .link{
+    color: inherit;
+    text-decoration: overline;
+} */
+/* 
+.icon{
+    font-size: 2rem;
+ color: red; 
+    fill: red;
+} */

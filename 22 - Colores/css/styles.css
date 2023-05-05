@@ -1,0 +1,25 @@
+body{
+    background-color: mediumorchid;
+    /* color: #333; */
+    background-color: hsl(60, 100%, 50%, 0.5);
+}
+
+/* .main {
+     color: aquamarine; 
+     background-color: currentColor; 
+} */
+
+.box {
+    /* border-top: 200px solid red;
+    border-left: 350px solid transparent;
+    border-right: 350px solid transparent; */
+    width: 200px;   
+    height: 200px;
+    background-color: #80808080;
+    box-shadow: 5px 5px 10px rgb(0 0 0 / 0.5);
+    box-shadow: 5px 5px 10px hsl(180 50% 50%);
+    /* background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgb(0 0 0 / 0.3); */
+    /* color: lime; */
+    /* border: 5px solid currentColor; */
+}

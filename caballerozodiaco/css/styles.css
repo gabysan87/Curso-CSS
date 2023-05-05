@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:white;
+    margin: 0;
+    
+}
+
+.images{
+    position: absolute;
+    width: 300px;
+    height: 65px;
+    left: 10px;
+}
+
+
+.img-cab {
+   width:200px;
+   height: 60px;
+   
+}
+
+.botton-1,
+.botton-2 {
+    background-color: cornflowerblue;
+    color: rgb(64, 29, 29);
+    margin-left: 10%;
+    padding: 5px;
+    margin-top: 4px;
+    
+}
+
+.container-botton {
+    background-color:skyblue;
+    position: relative;
+    margin-bottom: 30px;
+    height: 70px;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+    overflow: hidden;
+ }
+
+
+
+   .linea-1{
+    width: auto;
+    background-color:aliceblue;
+    margin-top: 10px;
+    border-width: auto;
+   }
+
+
+    .caballeros{
+        width: 50px;
+        height: 50px; 
+    }
+
+   .sagitario {
+    border-width: auto;
+    background-color:powderblue;
+    
+   }
+
+   .aries{
+    background-color:aliceblue;
+    border-width: auto;
+   }
+
+   .escorpion{
+    background-color:powderblue;
+    border-width: auto;
+   }
+   
+ 
+   .tauro{
+    background-color:aliceblue;
+    border-width: auto;
+   }
+   
+
+   .acuario{
+    background-color:powderblue;
+    border-width: auto;
+   }
+   
+   .virgo{
+    background-color:aliceblue;
+    border-width: auto;
+   }
+   
+   .capricornio{
+    background-color:powderblue;
+    border-width: auto;
+   }
+   
+   .cancer{
+    background-color:aliceblue;
+    border-width: auto;
+   }
+   
+   .piscis{
+    background-color:powderblue;
+    border-width: auto;
+   }
+
+   .libra{
+    background-color:aliceblue;
+    border-width: auto;
+   }
+
+   .geminis{
+    background-color:powderblue;
+    border-width: auto;
+   }
+   
+   .leo{
+    background-color:aliceblue;
+    border-width: auto;
+   }
+   
+   .tabla {
+    border: 1px solid blue;
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-left: 20px;
+   }
+
+   .tabla th,td{
+    border: 1px solid blue;
+   }

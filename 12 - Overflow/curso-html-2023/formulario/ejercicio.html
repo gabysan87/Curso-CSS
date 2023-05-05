@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Formulario de solicitud de beca</p>
+   <form>
+    <div>
+        <input type="text" placeholder="nombre" required>
+    </div>
+    <br>
+    <div>
+        <input type="text" placeholder="apellido" required>
+    </div>
+    <p>Fecha de nacimiento</p>
+    <input type="date">
+
+    <p>Seleccionar género</p>
+            <div>
+                <input type="radio" name="gender" value="Masculino">
+                Masculino
+            </div>      
+            <div>
+                <input type="radio" name="gender" value="Femenino">
+                Femenino
+            </div>
+    
+            <div>
+                <input type="email" placeholder="email" required>
+            </div><br>
+      
+            <select name="carreras">
+                <option value="ingles">ingles</option>
+                <option value="matematicas">matematicas</option>
+                <option value="algoritmos">algoritmos</option>
+                <option value="programacion">programación</option>
+                <option value="derecho">derecho</option>
+                <option value="lógica">lógica</option>
+            </select>
+        
+            <br>
+ 
+        <fieldset>
+               <input type="checkbox" name="carreras" value="ingles">
+                ingles
+            
+                <input type="checkbox" name="carreras" value="programación">
+                programación
+    
+            <br>
+               <input type="checkbox" name="carreras" value="matematicas" >
+                    matematicas
+                
+                <input type="checkbox" name="carreras" value="derecho" >
+                    derecho
+           <br>
+             
+                <input type="checkbox" name="carreras" value="algoritmos" >
+                algoritmos
+            
+                <input type="checkbox" name="carreras" value="lógica" >
+                lógica
+            
+        </fieldset>
+        <br>
+                <textarea name="motivo" cols="40" rows="10">Motivo de la solicitud de la beca</textarea>
+
+    <button> Enviar</button>
+
+   </form>
+    
+
+</body>
+</html>

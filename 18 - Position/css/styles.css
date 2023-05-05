@@ -1,0 +1,110 @@
+*{
+box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+    color: #fff;
+    /* padding-top: 70px; */
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: #555;
+}
+
+/* img{
+    width: 100%;
+    display: block;
+} */
+/* .header{
+    text-align: center;
+     padding: 25px 0;
+    background-color: lightskyblue;
+    color: orangered;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+} */
+/* .menu{
+    position: sticky;
+    top: 0;
+} */
+/* article{
+    outline: 3px solid red;
+}
+.article-title{
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    margin: 0;
+}
+
+.link{
+    position: fixed;
+    background-color: lightcoral;
+    width: 200px;
+} */
+
+
+ .container{
+    width: 200px;
+    height: 200px;
+    background-color: #555;
+    position: relative;
+
+    /* position: absolute;
+    margin-left: 100px;  */
+} 
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    color: #333;
+} 
+
+.box-1{
+    background-color: lightcoral;
+    position: relative; 
+    left: 150px;
+    z-index: -1;
+    /* position: absolute;
+    right: 0;
+    bottom: 0; */
+    /* position: relative;
+    border-radius: 50px;
+    top: 100px;
+    left: 100px; */
+}
+
+.box-1-2{
+    background-color: aquamarine;
+    position: relative;
+    left: 150px;
+    z-index: -1;
+}
+
+.box-2{
+    background-color: lightgreen;
+    position: relative;
+    top: 50px;
+    z-index: 20;
+    /* position: relative; 
+ position: absolute;
+right: 0;
+ bottom: 0; */
+}
+.box-3{
+    background-color: lightseagreen;
+    position: relative;
+    z-index: 10;
+}
+
+/* .link{
+    background-color: lime;
+    width: 200px;
+    position: absolute;
+    top: 50px;
+} */
